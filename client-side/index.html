@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="style.css"></link>
+    <title>Document</title>
+</head>
+<body>
+   <h1 id = "mainTitle"> ToDo List</h1>
+   <hr id =mainHr>
+   <button id = "showAllTasks">Show all my Tasks</button>
+   <div id = displayAllTasks></div>
+
+   <label for="taskInput">Enter your tasks =></label>
+   <input id ="taskInput" type ="text" placeholder="next task"/>
+   <br>
+   <br>
+   <label for="priorityInput">Enter priority for your task =></label>
+   <select id ="priorityInput" placeholder = "Choose Priority" type ="text" name="typeBox">
+    <option value="none">--->Choose Priority<---</option>
+    <option value="Easy">--->Easy<---</option>
+    <option value="Important">--->Important<---</option>
+    <option value="Must Do!">--->Must Do!<---</option>   
+    </select>
+   <br>
+   <br>
+   <button id = "postTasks">Add your Task</button>
+   <br>
+   <hr>
+   <h2>Delete</h2>
+   <button id = "deleteTasksButton">Choose a task to delete it</button>
+   <div id = deleteTasksDisplay></div>
+   <label for="deleteTextBox"> Enter email to delete =></label>
+   <input id ="deleteTextBox" type ="text" placeholder="email"/>
+   <button id = "deleteTask"></button>
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    <script src = "app.js"></script>
+</body>
+</html>

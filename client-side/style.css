@@ -1,0 +1,22 @@
+
+
+body{
+    max-width: 600px;
+    height: 700px;
+    margin: auto;
+    text-align: center;
+    border-width: 10px;
+    border-style: groove;
+    background-color: antiquewhite;
+  
+
+}
+.mainTitle{
+    font-family:monospace;
+
+
+}
+
+hr{
+    border-top: 3px double #8c8b8b
+}
